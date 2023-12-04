@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.gif
+
+301 Redirect /seo-portfolio/index.html https://valeriizhorniak.github.io/seo-portfolio/
