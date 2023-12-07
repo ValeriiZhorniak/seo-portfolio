@@ -5,6 +5,7 @@ Allow: /*.ico
 Allow: /*.jpg
 Allow: /*.png
 Allow: /*.svg
-Allow: /*.gif
+Allow: /*.pdf
+Allow: /*.html
 
 Sitemap: https://valeriizhorniak.github.io/seo-portfolio/sitemap.xml
