@@ -313,6 +313,7 @@ h4{
 }
 .cases_img{
   background-color: aliceblue;
+  text-align: center;
 }
 .fa-envelope:before {
   content: "📧"; 
@@ -339,9 +340,6 @@ h4{
   }
   .certificate_flex{
     width: 100%;
-  }
-  .header__nav{
-    display: none;
   }
   .header__lang{
     margin: 20px 0;
@@ -407,18 +405,24 @@ h4{
     margin-bottom: 0px;
   }
   .header__content{
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .link_ex{
     font-size: 14px;
     margin: 0;
+  }
+  .contact_mob {
+    background-color: aliceblue;
   }
   h4{
     font-size: 19px;
     margin: 5px 0;
   }
   .cases_mob img{
-    width: 100%;
+    width: 98%;
     height: 100%;
+  }
+  .cases_mobl{
+    display: none;
   }
 }
