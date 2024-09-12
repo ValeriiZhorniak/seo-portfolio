@@ -91,7 +91,7 @@ h4{
   transition: ease 0.3s;
 }
 .header__name a{
-  color:#fff
+  color:#fff;
 }
 .header__list {
   display: flex;
@@ -364,6 +364,9 @@ h4{
   .portfolio__subtitle{
     margin: 20px 5% 0 5%;
   }
+  .certificate__photo{
+    min-height: 287px;
+  }
   .contact__info{
     margin-top: 45px;
     font-size: 14px;
@@ -432,8 +435,5 @@ h4{
   }
   .cases_mobl{
     display: none;
-  }
-  .certificate__photo{
-    min-height: 250px;
   }
 }
