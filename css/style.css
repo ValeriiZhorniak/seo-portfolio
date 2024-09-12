@@ -124,6 +124,7 @@ h4{
 }
 .certificate__photo {
   height: auto;
+  min-height: 326px;
   width: 100%;
   max-width: 230px;
   margin-top: 30px;
@@ -335,6 +336,9 @@ h4{
   align-items: center;
 }
 @media (max-width: 767px){
+  .contact__content h2{
+    margin-bottom: -25px;
+  }
   .certificate_cont{
     width: 47%;
   }
@@ -355,13 +359,13 @@ h4{
     font-size: 14px;
   }
   .experience__item div{
-    margin: 5px -37px 0px -33px;
+    margin: 25px -37px 0px -33px;
   }
   .portfolio__subtitle{
     margin: 20px 5% 0 5%;
   }
   .contact__info{
-    margin-top: 20px;
+    margin-top: 45px;
     font-size: 14px;
   }
   .contact__box{
@@ -391,10 +395,11 @@ h4{
   h2{
     font-size: 23px;
     border-bottom: solid 3px #f48f1a;
-    margin-top: 0px;
+    margin-top: 5px;
   }
   .list-mob{
     font-size: 14px;
+    margin: 5px -37px 0px -33px !important;
   } 
   .contact__image{
     font-size: 25px;
@@ -427,5 +432,8 @@ h4{
   }
   .cases_mobl{
     display: none;
+  }
+  .certificate__photo{
+    min-height: 250px;
   }
 }
