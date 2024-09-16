@@ -25,6 +25,26 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.header__name a:hover{
+  color: #f48f1a;
+  transition: ease 0.3s;
+}
+.about__text a:hover{
+  color: #f48f1a;
+  transition: ease 0.3s;
+}
+.certificate_link:hover{
+  color: #f48f1a;
+  transition: ease 0.3s;
+}
+.list-mob a:hover{
+  color: #f48f1a;
+  transition: ease 0.3s;
+}
+.contact__name:hover{
+  color: #f48f1a;
+  transition: ease 0.3s;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
