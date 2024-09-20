@@ -168,6 +168,9 @@ h4{
   margin: 0 5px;
   width: 32%;
 }
+.cases_descr p{
+  line-height: 1.5;
+}
 .portfolio__content {
   min-height: 1200px;
   display: flex;
@@ -215,6 +218,12 @@ h4{
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+}
+.cases_descr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
 }
 .portfolio__example_one {
   background: url(../image/one.png) 100% 100% no-repeat;
@@ -308,7 +317,7 @@ h4{
   display: flex;
   flex-direction: column;
   justify-content: center; 
-  align-items: center;
+  align-items: flex-start;
 }
 .link_ex{
   line-height: 1.5;
@@ -330,7 +339,11 @@ h4{
   font-size: 14px;
 }
 .cases_img img{
-  margin-top: 15px;
+  margin-top: 5px;
+  border: #9fa7b2 1px solid;
+}
+.cases_descr ul{
+  text-align: left;
 }
 .cases_img{
   background-color: aliceblue;
@@ -431,6 +444,9 @@ h4{
     width: 115px;
     height: 65px;
   }
+  .cases_descr{
+    font-size: 14px;
+  }
   h3{
     font-size: 21px;
     margin-bottom: 0px;
@@ -450,8 +466,14 @@ h4{
     margin: 5px 0;
   }
   .cases_mob img{
-    width: 98%;
+    width: 100%;
     height: 100%;
+  }
+  .cases_mob{
+    align-items: center;
+  }
+  .cases_descr{
+    width: 98%;
   }
   .cases_mobl{
     display: none;
