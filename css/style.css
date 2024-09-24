@@ -324,7 +324,7 @@ h4{
   color: #042341;
 }
 .fa-phone-alt:before {
-  content: url('../image/LinkedIn.png'); 
+  content: url('../image/LinkedIn.webp'); 
 }
 .link_ex1 {
   color: red;
@@ -341,10 +341,11 @@ h4{
   text-align: center;
 }
 .fa-envelope:before {
-  content: "📧"; 
+  content: url('../image/Gmail.webp'); 
+  width: 41px;
 }
 .telegram:before {
-  content: url('../image/telegram.png'); 
+  content: url('../image/telegram.webp'); 
   width: 41px;
 }
 .bold_text{
