@@ -126,6 +126,12 @@ h4{
   color: #f48f1a;
   transition: ease 0.3s;
 }
+.ahrefs_stat{
+  min-width: 1029px !important;
+  min-height: 599px !important;
+  max-width: 1030px !important;
+  max-height: 600px !important;
+}
 .about__content {
   display: flex;
   flex-direction: column;
@@ -340,7 +346,10 @@ h3 a{
   margin-top: 5px;
   border: #9fa7b2 1px solid;
   width: 100%;
+  min-width: 1279px;
+  min-height: 369px;
   max-width: 1280px;
+  max-height: 370px;
 }
 .cases_descr ul{
   text-align: left;
@@ -472,12 +481,14 @@ h3 a{
   .cases_mob img{
     width: 100%;
     height: 100%;
+    min-height: auto;
+    min-width: auto;
   }
   .cases_mob{
     align-items: center;
   }
   .cases_descr{
-    width: 97%;
+    width: 96%;
   }
   .cases_mobl{
     display: none;
