@@ -127,10 +127,10 @@ h4{
   transition: ease 0.3s;
 }
 .ahrefs_stat{
-  min-width: 1029px !important;
-  min-height: 599px !important;
-  max-width: 1030px !important;
-  max-height: 600px !important;
+  min-width: 1029px;
+  min-height: 599px;
+  max-width: 1030px;
+  max-height: 600px;
 }
 .about__content {
   display: flex;
@@ -342,7 +342,7 @@ h3 a{
   color: red;
   font-size: 14px;
 }
-.cases_img img{
+.gsc_stat{
   margin-top: 5px;
   border: #9fa7b2 1px solid;
   width: 100%;
@@ -471,6 +471,7 @@ h3 a{
     font-size: 14px;
     margin: 0;
   }
+ 
   .contact_mob {
     background-color: aliceblue;
   }
@@ -482,7 +483,13 @@ h3 a{
     width: 100%;
     height: 100%;
     min-height: auto;
-    min-width: auto;
+    min-width: 95%;
+    max-width: 96%;
+  } 
+  .ahrefs_stat{
+    min-height: auto;
+    min-width: 40%;
+    max-width: 41%;
   }
   .cases_mob{
     align-items: center;
