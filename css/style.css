@@ -299,6 +299,16 @@ h4{
   color: #000;
   width: 56%;
 }
+footer{
+  width: 100%;
+  height: 25px;
+  background-color: #f0f8ff4f;
+  text-align: center;
+}
+footer a{
+  color: white;
+  margin: auto;
+}
 .experience__item div{
   margin: 15px 0 0 0;
   line-height: 1.5;
