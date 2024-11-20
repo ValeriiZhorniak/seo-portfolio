@@ -52,16 +52,16 @@
           <a class="certificate_link" href="https://lemon.school/certificates/3406891" target="_blank">SEO-specialist certificate 2024</a>
         </div>
         <div class="certificate_cont">
-          <a href="image/diplom-zvr-gor.webp" target="_blank"><img class="certificate__photo"
-              src="image/diplom-zvr.webp" width="472" height="472"
-              alt="Master's Diploma"></a>
-          <a class="certificate_link" href="image/diplom-zvr-gor.webp" target="_blank">Master's Diploma</a>
-        </div>
-        <div class="certificate_cont">
           <a href="image/Certificate-EF-SET-Zhorniak-1.webp" target="_blank"><img class="certificate__photo"
               src="image/Certificate-EF-SET-Zhorniak-1.webp" width="472" height="472"
               alt="Certificate Intermediate level (B1)"></a>
           <a class="certificate_link" href="image/Certificate-EF-SET-Zhorniak-1.webp" target="_blank">Certificate Intermediate level (B1)</a>
+        </div>
+        <div class="certificate_cont">
+          <a href="image/diplom-zvr-gor.webp" target="_blank"><img class="certificate__photo"
+              src="image/diplom-zvr.webp" width="472" height="472"
+              alt="Master's Diploma"></a>
+          <a class="certificate_link" href="image/diplom-zvr-gor.webp" target="_blank">Master's Diploma</a>
         </div>
         <div class="certificate_cont">
           <a href="image/cert.webp" target="_blank"><img class="certificate__photo"
@@ -75,8 +75,49 @@
               alt="Certificate Elementary level (A2)"></a>
           <a class="certificate_link" href="https://certs.prometheus.org.ua/downloads/30fdeda7e53e41c6a366666a726b86e0/Certificate.pdf" target="_blank">Certificate Elementary level (A2)</a>
         </div>
+        <div class="certificate_cont">
+          <a href="image/serp-sert.webp" target="_blank"><img class="certificate__photo"
+              src="image/serp-sert-vert.webp" width="472" height="472" alt="Certificate SEO SERPSTAT"></a>
+          <a class="certificate_link"
+            href="image/serp-sert.webp"
+            target="_blank">Certificate SEO SERPSTAT</a>
+        </div>
       </div>
     </div>
+    <div class="acc_cen">
+      <button class="accordion">All Certificates</button>
+    </div>
+    <div class="panel">
+      <div class="about">
+        <div class="about__content">
+          <div class="certificate_flex">
+            <div class="certificate_cont">
+              <a href="image/net-sert.webp" target="_blank"><img class="certificate__photo"
+                  src="image/net-sert-vert.webp" width="472" height="472" alt="Certificate SEO Netpeak"></a>
+              <a class="certificate_link"
+                href="image/net-sert.webp"
+                target="_blank">Certificate SEO Netpeak</a>
+            </div>
+            <div class="certificate_cont">
+              <a href="image/dia-sert.webp" target="_blank"><img class="certificate__photo"
+                  src="image/dia-sert.webp" width="472" height="472"
+                  alt="Certificate SEO DIIA"></a>
+              <a class="certificate_link"
+                href="image/dia-sert.webp"
+                target="_blank">Certificate SEO DIIA</a>
+            </div>
+            <div class="certificate_cont">
+              <a href="image/net-sert-3.webp" target="_blank"><img class="certificate__photo"
+                  src="image/net-sert-3-vert.webp" width="472" height="472"
+                  alt="Certificate SEO Netpeak"></a>
+              <a class="certificate_link"
+                href="image/net-sert-3.webp"
+                target="_blank">Certificate SEO Netpeak</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
   </div>
   <div class="contact experience"><a id="experience"></a>
     <div class="contact__content">
@@ -222,6 +263,21 @@
     </div>
   </div>
   <footer><a href="index_ru.html" target="_blank">Another version</a></footer>
+  <script>
+    var acc = document.getElementsByClassName("acc_cen");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+  </script>
 </body>
 
 </html>

@@ -11,8 +11,6 @@
   <meta charset="UTF-8">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <script type="text/javascript" src="script.js"></script>
   <!--link rel="canonical" href="https://valeriizhorniak.github.io/seo-portfolio/index_ru.html"!-->
   <meta name="description"
     content="Валерий Жорняк - SEO-специалист. В моем портфолио есть информация о моем опыте, навыках, успешных кейсах и сертификатах.">
@@ -272,18 +270,18 @@
   </div>
   <script>
     var acc = document.getElementsByClassName("acc_cen");
-    var i;
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
     }
+  });
+}
   </script>
 </body>
 
