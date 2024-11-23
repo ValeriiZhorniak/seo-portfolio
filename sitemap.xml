@@ -3,63 +3,30 @@
         <loc>https://valeriizhorniak.github.io/seo-portfolio/</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="uk-UA" href="https://valeriizhorniak.github.io/seo-portfolio/" />
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_en.html" />
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_ru.html" />
     </url>
     <url>
         <loc>https://valeriizhorniak.github.io/seo-portfolio/cases.html</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="uk-UA"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases.html" />
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_en.html" />
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_ru.html" />
     </url>
     <url>
         <loc>https://valeriizhorniak.github.io/seo-portfolio/index_en.html</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_en.html" />
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_ru.html" />
-        <xhtml:link rel="alternate" hreflang="uk-UA" href="https://valeriizhorniak.github.io/seo-portfolio/" />
     </url>
     <url>
         <loc>https://valeriizhorniak.github.io/seo-portfolio/index_ru.html</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_ru.html" />
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/index_en.html" />
-        <xhtml:link rel="alternate" hreflang="uk-UA" href="https://valeriizhorniak.github.io/seo-portfolio/" />
     </url>
     <url>
         <loc>https://valeriizhorniak.github.io/seo-portfolio/cases_ru.html</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_ru.html" />
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_en.html" />
-        <xhtml:link rel="alternate" hreflang="uk-UA"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases.html" />
     </url>
     <url>
         <loc>https://valeriizhorniak.github.io/seo-portfolio/cases_en.html</loc>
         <lastmod>2024-11-22</lastmod>
         <changefreq>monthly</changefreq>
-        <xhtml:link rel="alternate" hreflang="en"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_en.html" />
-        <xhtml:link rel="alternate" hreflang="ru"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases_ru.html" />
-        <xhtml:link rel="alternate" hreflang="uk-UA"
-            href="https://valeriizhorniak.github.io/seo-portfolio/cases.html" />
     </url>
 </urlset>
