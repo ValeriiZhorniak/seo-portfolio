@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Screaming Frog для початківців | SEO-блог</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+  <link href="https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-pochatkivciv.html" rel="alternate" hreflang="uk-UA">
+  <link href="https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-for-beginners.html" rel="alternate" hreflang="en">
+  <link href="https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-nachinayushchih.html" rel="alternate" hreflang="ru">
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="У цій статті я зібрав короткий мануал для початківців SEО-фахівців, які займаються оптимізацією, в якій їм допоможе Screaming Frog.">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li><a class="header__item" href="index.html" target="_blank">ПОРТФОЛИО</a></li>
+          <li><a class="header__item" href="cases.html" target="_blank">КЕЙСИ</a></li>
+          <li><a class="header__item cases_mobl" href="#contact">КОНТАКТИ</a></li>
+          <li><a class="header__item" href="screaming-frog-for-beginners.html">EN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="about">
+    <div class="about__content blog-text">
+      <h1>SCREAMING FROG ДЛЯ ПОЧИНАЮЧИХ</h1>
+      <p>У цій статті я зібрав короткий мануал для початківців SEО-фахівців, які займаються оптимізацією, в якій їм допоможе Screaming Frog. Я опишу найголовніші функції, необхідні для аналізу сайту, без зайвої води та непотрібних функцій.</p>
+      <h2>Де завантажити Screaming Frog?</h2>
+      <p>Завантажити безкоштовну версію Скрімінг Фрога можна на його офіційному сайті, але при використанні ви зможете сканувати лише до п'ятисот посилань, а це дуже мало. Краще встановіть зламану версію з rutracker.org, як це багато хто робить. Усі інструкції по встановленню ви знайдете на сайті файлообмінника. Я використовую версію 19.0.</p>
+      <h2>Як сканувати сайт?</h2>
+      <p>Отже, почнемо сканувати сайт. Все дуже просто, вставляємо домен у верхній рядок у програмі та натискаємо кнопку Start.</p>
+      <a href="image/SF-Scr1.png" target="_blank" class="img-blogs"><img src="image/SF-Scr1.webp" width="1000" height="300" alt="Як сканувати сайт?"></a>
+      <p>Тут трапляється, що сайт закрив сканування для таких програм, як Скрімінг Фрог. У такому випадку, у верхній панелі ми натискаємо Configuration > User-Agent і у вікні вибираємо Google (Desktop) і тиснемо OK. Після цього натискаємо Start.</p>
+      <a href="image/SF-Scr2.png" target="_blank" class="img-blogs"><img src="image/SF-Scr2.webp" width="1000" height="300" alt="Як сканувати сайт?"></a>
+      <p>Далі, чекаємо, поки програма відсканує весь сайт.</p>
+      <h2>Що робити після сканування сайту?</h2>
+      <p>Ми відсканували сайт і бачимо перед собою багато панелей, стовпців та інше. Зараз я поясню найпотрібніші параметри, які нам потрібні.</p>
+      <a href="image/SF-Scr3.png" target="_blank" class="img-blogs"><img src="image/SF-Scr3.webp" width="1000" height="300" alt="Що робити після сканування сайту?"></a>
+      <p>Перше, це велика таблиця з даними про посилання, у ній ми можемо знайти найнеобхіднішу інформацію - код відповіді (200, 300, 400, 500), title, description, H1. Стовпці можна виставляти у будь-якому порядку, можете виставити, як у мене на попередньому скріншоті. Також, натиснувши на назву стовпця, ми можемо відсортувати дані від А до Я, від Я до А, від більшого до меншого, від меншого до більшого.</p>
+      <a href="image/SF-Scr4.png" target="_blank" class="img-blogs"><img src="image/SF-Scr4.webp" width="1000" height="300" alt="Що робити після сканування сайту?"></a>
+      <p>На минулому скріншоті я відсортував Status Code за зменшенням, і ви могли помітити, що на нашому сайті є 404, 302 та 301 посилання. І тут найголовніше питання.</p>
+      <h2>Де на сайті знаходиться потрібне посилання?</h2>
+      <p>Щоб знайти необхідне посилання у Screaming Frog, необхідно натиснути на посилання і в нижній панелі вибрати Inlinks. Перший стовпець - це сторінка, на якій знаходиться бите посилання.</p>
+      <a href="image/SF-Scr5.png" target="_blank" class="img-blogs"><img src="image/SF-Scr5.webp" width="1000" height="300" alt="Де на сайті знаходиться потрібне посилання?"></a>
+      <p>Ось так працює це на практиці.</p>
+      <a href="image/SF-Scr6.png" target="_blank" class="img-blogs"><img src="image/SF-Scr6.webp" width="1000" height="300" alt="Де на сайті знаходиться потрібне посилання?"></a>
+      <h2>Як відсортувати лише сторінки?</h2>
+      <p>За попередніми скріншотами ви помітили, що програма просканувала абсолютно всі файли, але нам потрібна інформація лише про сторінки сайту. Для цього нам знадобиться бічна панель сайту, в Internal вибираємо HTML і у нас сортуються лише сторінки.</p>
+      <a href="image/SF-Scr7.png" target="_blank" class="img-blogs"><img src="image/SF-Scr7.webp" width="1000" height="300" alt="Як відсортувати лише сторінки?"></a>
+      <h2>Як переглянути вихідні посилання з сайту?</h2>
+      <p>Далі, я вам покажу всі функції бічної панелі. У External натискаємо All і програма показує всі вихідні посилання нашого сайту. Тут ми можемо побачити посилання з небажаними кодами відповідей (300, 400, 500).</p>
+      <a href="image/SF-Scr8.png" target="_blank" class="img-blogs"><img src="image/SF-Scr8.webp" width="1000" height="300" alt="Як подивитися вихідні посилання з сайту?"></a>
+      <p>Щоб дізнатися, де вони знаходяться на сайті, прочитайте вище під заголовком "Де на сайті знаходиться потрібне посилання?".</p>
+      <h2>Інформація про посилання на сайті</h2>
+      <p>У бічній панелі є корисна властивість URL, вона показує помилки урла - латинські літери, нижнє підкреслення, великі літери тощо.</p>
+      <a href="image/SF-Scr9.png" target="_blank" class="img-blogs"><img src="image/SF-Scr9.webp" width="1000" height="300" alt="Інформація про посилання на сайті"></a>
+      <h2>Інформація про title та description</h2>
+      <p>У бічній панелі на вкладках Page Titles та Meta Description є інформація про тайтл та дескрипшен. Можна переглянути відсутні метатеги, дублікати, надто короткі або надто довгі.</p>
+      <a href="image/SF-Scr10.png" target="_blank" class="img-blogs"><img src="image/SF-Scr10.webp" width="1000" height="300" alt="Інформація про title та description"></a>
+      <p>Такі ж дані можна дізнатися із вкладки H1 про заголовок H1.</p>
+      <a href="image/SF-Scr11.png" target="_blank" class="img-blogs"><img src="image/SF-Scr11.webp" width="1000" height="300" alt="Інформація про H1"></a>
+      <h2>Робота із зображеннями у Screaming Frog</h2>
+      <p>У бічній панелі на вкладці Images знаходяться фільтри, за допомогою яких можна виявити зображення з великою вагою, зображення без атрибуту ALT, зображення без тексту в атрибуті ALT тощо.</p>
+      <a href="image/SF-Scr12.png" target="_blank" class="img-blogs"><img src="image/SF-Scr12.webp" width="1000" height="300" alt="Робота із зображеннями в Screaming Frog"></a>
+      <h2>Як вивантажити дані?</h2>
+      <p>Коли ви знайшли необхідні дані, ви можете вивантажити їх в Excel або Google Sheets для подальшої роботи з ними. Щоб розвантажити, натисніть Export. Далі придумайте назву документа відмінну від стандартного, потім виберіть Type - Google Sheets, заздалегідь підтвердивши пошту для вивантаження і натисніть Save and Open або просто Save.</p>
+      <a href="image/SF-Scr13.png" target="_blank" class="img-blogs"><img src="image/SF-Scr13.webp" width="1000" height="300" alt="Як вивантажити дані?"></a>
+      <h2>Створити Sitemap у Screaming Frog</h2>
+      <p>Є адмін-панелі такі як Wordpress або OpenCart, які генерують сайтмап самі, але якщо немає такої можливості, то нам допоможе Скрімінг Фрог. Необхідно у верхній панелі натиснути Sitemaps, далі вибрати XML Sitemap, якщо потрібна карта сторінок сайту, та Images Sitemap, якщо потрібна карта зображень сайту. У вікні, натискаємо кнопку Export.</p>
+      <a href="image/SF-Scr14.png" target="_blank" class="img-blogs"><img src="image/SF-Scr14.webp" width="1000" height="300" alt="Створити Sitemap у Screaming Frog"></a>
+      <h2>Дерево сайту в Screaming Frog</h2>
+      <p>У Скрімінг Фрозі є можливість створити дерево сайту, це допоможе зрозуміти вкладеність сторінок і категорій. Для цього натисніть Visualisations > Crawl Tree Graph. Є кілька видів "дерев", які можете самостійно ознайомитися з усіма.</p>
+      <a href="image/SF-Scr15.png" target="_blank" class="img-blogs"><img src="image/SF-Scr15.webp" width="1000" height="300" alt="Дерево сайту в Screaming Frog"></a>
+      <h2>Найголовніший секрет Screaming Frog</h2>
+      <p>Перед тим, як писати цю статтю, я прочитав два повні мануали по Скрімінг Фрогу (<a href="https://collaborator.pro/ru/blog/screaming-frog-guide" target="_blank" rel="nofollow">Посилання 1</a> та <a href="https://media-maxi.by/articles/screaming-frog-samyy-polnyy-manual-po-nastroyke/" target="_blank" rel="nofollow">Посилання 2</a>), щоб не пропустити якийсь пункт, і після прочитання відкрив для себе нову інформацію, яку не знав раніше. Коли освоїте базові навички програми, то не зупиняйтеся та читайте нові статті та вивчайте інтерфейс самі.</p>
+    
+    
+    </div>
+    <div class="contact">
+      <a id="contact"></a>
+      <div class="contact__content">
+        <h2>КОНТАКТИ</h2>
+        <div class="contact__box">
+          <div class="contact__item">
+            <div class="fas fa-phone-alt contact__image"> </div>
+            <a href="https://www.linkedin.com/in/valerii-zhorniak-b6907b1a3/" class="contact__name"
+              target="_blank">LinkedIn</a>
+          </div>
+          <div class="contact__item">
+            <div class="telegram contact__image"> </div>
+            <a href="https://t.me/valerii999999" class="contact__name" target="_blank">@valerii999999</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

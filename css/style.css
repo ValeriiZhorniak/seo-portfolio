@@ -21,6 +21,33 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.blog-text{
+  width: 70%;
+  margin: 0 auto;
+  align-items: flex-start !important;
+}
+.blog-text h2{
+  border-bottom: none;
+  font-size: 25px;
+  letter-spacing: 0px;
+  margin: 20px auto 0 auto;
+  padding-bottom: 10px;
+}
+.img-blogs{
+  margin: 10px auto;
+}
+.blog-text img {
+  width: 100%;
+  height: 100%;
+  border: #000 1px solid;
+}
+.blog-text p{
+  line-height: 1.5;
+}
+.blog-text h1{
+  text-align: center;
+  margin: 100px auto 10px auto;
+}
 .acc_cen{
   display: flex;
   justify-content: center;
@@ -98,14 +125,14 @@ h1, h2, h3, h4{
 }
 h1{
   font-size: 35px; 
-  letter-spacing: 1px; 
+  letter-spacing: 0px; 
   padding-bottom: 15px;
   border-bottom: solid 5px #f48f1a;
   margin-top: 100px;
 }
 h2 {
   font-size: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   padding-bottom: 15px;
   border-bottom: solid 5px #f48f1a; 
   margin: 40px auto 0 auto;
@@ -133,7 +160,7 @@ h4{
 .header__item {
   color: #fff;
   margin: auto 20px auto 20px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 .header__item:hover {
   color: #f48f1a;
@@ -149,7 +176,7 @@ h4{
 }
 .header__lang {
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 .header__lang:hover {
   color: #f48f1a;
@@ -210,7 +237,7 @@ h4{
 .portfolio__title {
   font-size: 30px;
   color: #042341;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   font-weight: bold;
   margin-top: 70px;
   padding-bottom: 35px;
@@ -267,6 +294,40 @@ h4{
   min-height: 400px;
   margin: 30px 60px 30px 60px;
   border: 1px solid #000;
+}
+.blog {
+  display: flex;
+  width: 78%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.article {
+  width: 39%;
+  background-color: #f6f6f6;
+  padding: 15px 5px;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+.article img {
+  width: 100%;
+  border-radius: 10px;
+}
+.link_blog {
+  margin: 20px 5px -10px 5px;
+  color: black;
+  min-height: 48px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .article {
+      width: 100%;
+  }
+  .blog {
+    width: 95%;
+  }
 }
 .portfolio__example_three {
   background: url(../image/three.png) 100% 100% no-repeat;
@@ -452,7 +513,7 @@ h3 a{
     margin: 20px 0;
   }
   .header__item{
-    margin: auto 5px;
+    margin: auto 25px;
   }
   .about__text{
     margin: 0px 5%;
@@ -544,6 +605,15 @@ h3 a{
     min-height: auto;
     min-width: 40%;
     max-width: 41%;
+  }
+  .blog-text{
+    width: 95%;
+  }
+  .blog-text p{
+    font-size: 14px;
+  }
+  .blog-text h2{
+    font-size: 21px;    
   }
   .cases_mob{
     align-items: center;
