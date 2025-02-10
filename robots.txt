@@ -1,5 +1,7 @@
 User-agent: *
 
+Disalllow: https://valeriizhorniak.github.io/seo-portfolio/index.html
+
 Allow: *.js*
 Allow: *.css*
 Allow: *.png*
