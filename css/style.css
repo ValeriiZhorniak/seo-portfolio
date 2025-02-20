@@ -313,6 +313,35 @@ h4{
   width: 100%;
   border-radius: 10px;
 }
+.nav-item {
+  display: inline-block;
+  cursor: pointer;
+  background: #042341;
+}
+
+.nav-item:last-child {
+  border-right: 0;
+}
+
+.nav-item:hover{
+  background: #555;
+}
+.nav-item a{
+  color: #fff;
+  text-decoration: none;
+}
+.sub-menu{
+  display: none;
+  position: absolute;
+  width: 200px;
+  padding-top: 30px; 
+}
+.dropdown{
+  position: relative;
+}
+.dropdown:hover > .sub-menu{
+  display: block;
+}
 .link_blog {
   margin: 20px 5px -10px 5px;
   color: black;
@@ -513,7 +542,7 @@ h3 a{
     margin: 20px 0;
   }
   .header__item{
-    margin: auto 25px;
+    margin: auto 15px;
   }
   .about__text{
     margin: 0px 5%;
