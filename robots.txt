@@ -1,7 +1,5 @@
 User-agent: *
 
-Disallow: https://valeriizhorniak.github.io/seo-portfolio/index.html
-
 Allow: *.js*
 Allow: *.css*
 Allow: *.png*
@@ -11,5 +9,8 @@ Allow: *.jpeg*
 Allow: *.svg*
 Allow: *.webp*
 Allow: *.pdf*
+Allow: https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-pochatkivciv.html
+Allow: https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-for-beginners.html
+Allow: https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-nachinayushchih.html
 
-Sitemap: https://valeriizhorniak.github.io/seo-portfolio/sitemap.xml
+Sitemap: https://valeriizhorniak.github.io/seo-portfolio/sitemap-index.xml
