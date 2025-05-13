@@ -30,14 +30,16 @@ footer, header, hgroup, menu, nav, section {
   border-bottom: none;
   font-size: 25px;
   letter-spacing: 0px;
-  margin: 20px auto 0 auto;
+  margin: 20px 0 0 0;
+  text-align: left;
   padding-bottom: 10px;
 }
 .img-blogs{
   margin: 10px auto;
+  text-align: center;
 }
 .blog-text img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   border: #000 1px solid;
 }
