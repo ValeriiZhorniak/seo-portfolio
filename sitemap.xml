@@ -43,13 +43,13 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-pochatkivciv.html</loc>
+    <loc>screamingfrog.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-for-beginners.html</loc>
+    <loc>screamingfrog_en.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -67,7 +67,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-nachinayushchih.html</loc>
+    <loc>screamingfrog_ru.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -400,7 +400,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-pochatkivciv.html</loc>
+    <loc>screamingfrog.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -496,7 +496,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-for-beginners.html</loc>
+    <loc>screamingfrog_en.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -643,7 +643,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://valeriizhorniak.github.io/seo-portfolio/screaming-frog-dlya-nachinayushchih.html</loc>
+    <loc>screamingfrog_ru.html</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
